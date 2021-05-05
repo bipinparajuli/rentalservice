@@ -53,7 +53,7 @@ As this is a React JS application, you need the following to support your develo
 1. [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the project.
 2. Clone the project.
    ```bash
-   git clone https://<your-github-username>@github.com/<your-github-username>/Rezume.git
+   git clone https://<your-github-username>@github.com/<your-github-username>/rentalservice.git
    ```
 3. Enter the project directory.
    ```bash
