@@ -1,0 +1,23 @@
+{
+  "name": "rental-services",
+  "description": "Rental services is a free online portal for finding and posting room. In the web portal, room owner are allowed to post their room information and those who are seeking rooms,appartment and hostel can vist the site and simply can contact to the owners.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bipinparajuli/rentalservice.git"
+  },
+  "author": "bipin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bipinparajuli/rentalservice/issues"
+  },
+  "homepage": "https://github.com/bipinparajuli/rentalservice#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-web-token": "^3.2.0"
+  }
+}
