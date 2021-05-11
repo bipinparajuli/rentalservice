@@ -4,7 +4,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const sequelize = require("./database")
 
+const AuthRoutes = require("./routes/auth")
+
 const app = express();
+
 
 //creating a database
 
@@ -17,11 +20,12 @@ sequelize.sync()
 
 //middleware
 app.use(bodyParser.json());
+app.use(express.json())
 app.use(cors())
 
 
 //routes
-
+app.use("/api",AuthRoutes)
 
 
 
